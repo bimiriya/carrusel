@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+img {
+    height: 90vh;
+}
+
+.slideshow {
+    position: relative;
+    width: 50%;
+}
+
+.slider li, ul {
+    width: 100%;
+    text-align: center;
+}
+
+.slider li:not(:first-child) {
+    display: none;
+}
+
+.pagination {
+    position: absolute;
+    top: 100%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.pagination li {
+    font-size: 20px;
+    margin: 2px 5px;
+    opacity: 0.5;
+}
+
+.pagination li span {
+    cursor: pointer;
+}
+
+.left, .right {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.left {
+    left: 10px;
+}
+
+.right {
+    right: 10px;
+}
