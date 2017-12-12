@@ -5,62 +5,72 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Carrusel</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
 
   <div class="container">
     <div class="row">
-      <div class="col-lg-10 col-lg-offset-1">
-        <div class="slideshow">
-          <div class="col-lg-10 col-lg-offset-1">
-            <ul class="slider">
-              <li>
-                <img src="assets/images/saga1.jpg" class="img-responsive">
-              </li>
-              <li>
-                <img src="assets/images/saga2.jpg" alt="" class="img-responsive">
-              </li>
-              <li>
-                <img src="assets/images/saga3.jpg" alt="" class="img-responsive">
-              </li>
-              <li>
-                <img src="assets/images/saga4.jpg" alt="" class="img-responsive">
-              </li>
-              <li>
-                <img src="assets/images/saga5.jpg" alt="" class="img-responsive">
-              </li>
-              <li>
-                <img src="assets/images/saga6.jpg" alt="" class="img-responsive">
-              </li>
-              <li>
-                <img src="assets/images/saga7.jpg" alt="" class="img-responsive">
-              </li>
-            </ul>
-          </div>
-        </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div id="title" class="text-center">
+          <h1>Saga Cover Art</h1>
+          <h4>by Fiona Staples</h4>
+        </div><!--title-->
+      </div><!--title cols-->
+    </div><!--title row-->
+    <div class="row">
+      <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
         <div class="left">
-          <span class="fa fa-chevron-left"></span>
-        </div>
-    
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </div><!--left-->
+      </div><!--left col-->
+      <div class="col-xs-10 col-sm-10 col-md-5 col-lg-3">
+        <ul class="slider text-center list-unstyled">
+          <li>
+            <img src="assets/images/saga1.jpg" class="img-responsive">
+          </li>
+          <li>
+            <img src="assets/images/saga2.jpg" alt="" class="img-responsive">
+          </li>
+          <li>
+            <img src="assets/images/saga3.jpg" alt="" class="img-responsive">
+          </li>
+          <li>
+            <img src="assets/images/saga4.jpg" alt="" class="img-responsive">
+          </li>
+          <li>
+            <img src="assets/images/saga5.jpg" alt="" class="img-responsive">
+          </li>
+          <li>
+            <img src="assets/images/saga6.jpg" alt="" class="img-responsive">
+          </li>
+          <li>
+            <img src="assets/images/saga7.jpg" alt="" class="img-responsive">
+          </li>
+        </ul>
+        <ol class="jumper text-center list-unstyled"></ol>
+      </div>
+      <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
         <div class="right">
-          <span class="fa fa-chevron-right"></span>
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </div><!--right-->
+      </div><!--right col-->
+      <div class="col-xs-12 col-sm-12 col-md-5 col-lg-7 text-justify">
+        <div id="description">
+          <p>
+            Saga is an epic space opera/fantasy comic book series written by Brian K. Vaughan and illustrated by Fiona Staples, published monthly by the American company Image Comics. The series is heavily influenced by Star Wars and is based on ideas Vaughan conceived both as a child and as a parent. It depicts a husband and wife, Alana and Marko, from long-warring extraterrestrial races, fleeing authorities from both sides of a galactic war as they struggle to care for their daughter, Hazel, who is born in the beginning of the series and who occasionally narrates the series as an unseen adult.
+          </p>
         </div>
       </div>
-    </div>
-  </div>
+    </div><!--row-->
+  </div><!--container-->
 
-  <div class="row">
-    <div class="col-lg-10 col-lg-offset-1">
-      <ol class="pagination"></ol>
-    </div>
-  </div>
-    
   <script
   src="https://code.jquery.com/jquery-3.2.1.slim.js"
   integrity="sha256-tA8y0XqiwnpwmOIl3SGAcFl2RvxHjA8qp0+1uCGmRmg="
   crossorigin="anonymous"></script>
-  <script src="https://use.fontawesome.com/523d81890b.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="assets/js/app.js"></script>
 </body>
 </html>
